@@ -1,0 +1,27 @@
+{
+    "name": "boxunphp/framework",
+    "description": "一个简易的PHP框架",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fw\\": "src/"
+        },
+        "files": [
+          "src/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Jordy",
+            "email": "arno.zheng@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "require": {
+        "php": "^7.2",
+        "psr/log": "^1.1"
+    }
+}

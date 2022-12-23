@@ -1,2 +1,2 @@
 # framework
-框架
+简易PHP框架
